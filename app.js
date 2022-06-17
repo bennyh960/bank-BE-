@@ -1,4 +1,4 @@
-const { urlencoded, json } = require("express");
+const { json } = require("express");
 const express = require("express");
 const bodyParser = require("body-parser");
 const data = require("./users/users.js");
@@ -64,6 +64,11 @@ app.put("/admin/update/credit", (req, res) => {
   const account = accounts.find((a) => a.accountId === req.body.accountId);
   isValid ? res.status(200).send(account) : res.status(200).send("Canot update non active account");
 });
+
+// * Step to connect heroku
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 
 app.listen(PORT, () => {
   console.log("Server is On-Air on port ", PORT);
