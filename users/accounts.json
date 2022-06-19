@@ -1,0 +1,17 @@
+[
+  {
+    "id": 12121,
+    "name": "shira",
+    "isActiveAccount": true,
+    "accountId": "km088kl4hd7qs2",
+    "cash": -890,
+    "credit": 1000
+  },
+  { "id": 32121, "name": "Dan", "isActiveAccount": true, "accountId": "km0bocl4hd84ux", "cash": -300, "credit": 3000 },
+  { "id": 32121, "name": "Dan", "isActiveAccount": true, "accountId": "km0dx8l4hdl0g2", "cash": 0, "credit": 10000 },
+  { "id": 35421, "name": "Benny", "isActiveAccount": true, "accountId": "km0d3ol4hdmm28", "cash": 770, "credit": 0 },
+  { "id": 354281, "name": "Menny", "isActiveAccount": true, "accountId": "km03p8l4hjtkco", "cash": 0, "credit": 2000 },
+  { "id": 354281, "name": "Menny", "isActiveAccount": true, "accountId": "km0d8sl4hk5thq", "cash": 0, "credit": 2000 },
+  { "id": 354281, "name": "Menny", "isActiveAccount": true, "accountId": "km0q0l4hk6crb", "cash": 0, "credit": 2000 },
+  { "id": 354281, "name": "Menny", "isActiveAccount": false, "accountId": "km07ywl4hk9v1z", "cash": 0, "credit": 1000 }
+]
